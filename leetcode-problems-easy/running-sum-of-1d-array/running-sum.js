@@ -54,7 +54,7 @@ var runningSum = function(nums) {
 /*
 Optimal solution:
 const runningSum = nums => {
-  nums.reduce((a,c,i,arr) => arr[i] += a)
-  return nums
+    nums.reduce((a,c,i,arr) => arr[i] += a)
+    return nums
 }
 */
